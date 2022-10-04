@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <title>Назва сторінки</title>
+</head>
+<body>
+
+<!-- Elements -->
+<h1>Мій перший заголовок</h1>
+<p>Мій перший параграф.</p>
+
+<h1>Це заголовок 1</h1>
+<h2>Це заголовок 2</h2>
+<h3>Це заголовок 3</h3>
+
+<p>Це параграф.</p>
+<p>Це інший параграф.</p>
+
+<a href="https://w3schoolsua.github.io/">Це посилання</a>
+
+<button>Натисніть мене</button>
+
+<h2>Невпорядкований список HTML</h2>
+<ul>
+  <li>Кава</li>
+  <li>Чай</li>
+  <li>Молоко</li>
+</ul>
+
+<h2>Впорядкований список HTML</h2>
+<ol>
+  <li>Кава</li>
+  <li>Чай</li>
+  <li>Молоко</li>
+</ol>
+
+<!-- Atributes -->
+<img src="../images/img_girl.jpg" alt="Дівчина в жакеті">
+
+<p style="color:red">Це параграф червоного кольору.</p>
+
+<p title='Я виринаюча підказка'>
+  Це параграф.
+</p>
+
+<!-- Paragraphs -->
+<p>
+  Цей параграф
+  містить багато рядків
+  у вихідному коді,
+  але браузер
+  ігнорує їх.
+</p>
+
+<p>
+  Цей параграф
+  містить         багато місця
+  у вихідному коді
+  але        браузер
+  ігнорує його.
+</p>
+
+<p>Цей<br>параграф<br>має розриви рядка.</p>
+
+<pre>
+  І ось ідем у бою життєвому.
+
+  Міцні, тверді, незламні мов граніт,
+
+  Бо плач не дав свободи ще нікому,
+
+  А хто борець, той здобуває світ.
+</pre>
+
+<!-- Links -->
+<a href="https://www.w3schools.com/html/">HTML уроки для початківців онлайн</a>
+
+<a href="html_images.html">HTML Зображення</a>
+
+<style>
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: red;
+  }
+</style>
+
+<a href="https://www.w3schools.com/" target="_blank">Відвідайте W3Schools!</a>
+
+<a href="https://www.w3schools.com/html/" target="_top">HTML5 Підручник!</a>
+
+<a href="index.html">
+  <img src="smiley.gif" alt="HTML уроки для початківців" style="width:42px;height:42px;border:0;">
+</a>
+
+<a href="https://www.w3schools.com/html/" title="Перейти на уроки по HTML для початківців">Уроки по HTML для початківців</a>
+
+<h2 id="C4">Розділ 4</h2>
+<a href="#C4">Перейти до розділу 4</a>
+
+<a href="https://www.w3schools.com/html/index.html">HTML підручник</a>
+
+<!-- Images -->
+<img src="pic_trulli.jpg" alt="Italian Trulli">
+
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+
+<a href="index.html">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+</a>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+  Зображення буде плавати праворуч від тексту.</p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+  Зображення буде плавати ліворуч від тексту.</p>
+
+
+<!-- Tables -->
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>55577854</td>
+    <td>55577855</td>
+  </tr>
+</table>
+
+<table style="width:100%">
+  <tr>
+    <th>Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>55577854</td>
+  </tr>
+  <tr>
+    <td>55577855</td>
+  </tr>
+</table>
+
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+
+
+<!-- Forms -->
+<form>
+  Ім’я:<br>
+  <input type='text' name='firstname'><br>
+  Прізвище:<br>
+  <input type='text' name='lastname'>
+</form>
+
+<form>
+  <input type='radio' name='gender" value='male' checked> Чоловіча<br>
+  <input type='radio' name='gender' value='female'> Жіноча<br>
+  <input type='radio' name='gender' value='other'> Інше
+</form>
+
+<form action='/action_page.html'>
+  Ім’я:<br>
+  <input type='text' name='firstname' value='Mickey'><br>
+  Прізвище:<br>
+  <input type='text' name='lastname' value='Mouse'><br><br>
+  <input type='submit' value='Відправити'>
+</form>
+
+
+
+
+
+</body>
+</html>
